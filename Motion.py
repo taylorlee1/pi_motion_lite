@@ -183,6 +183,6 @@ class Writer():
                     output.write(input.read())
 
                 os.remove(fn)
-                log.debug("Write.writeOut() removed %s" % fn)
+                log.debug("Writer.writeOut() removed %s" % fn)
 
             log.debug("wrote %s" % outfile)
